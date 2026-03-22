@@ -3,7 +3,7 @@ entries:
   matyan:
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2026-03-21T09:22:14.859424093Z"
+    created: "2026-03-22T06:30:48.815281267Z"
     dependencies:
     - alias: fdb-operator
       condition: fdb-operator.install
@@ -29,7 +29,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-03-21T09:22:14.848496009Z"
+    created: "2026-03-22T06:30:48.804410202Z"
     dependencies:
     - alias: fdb-operator
       condition: fdb-operator.install
@@ -53,4 +53,4 @@ entries:
     urls:
     - https://4gt-104.github.io/matyan-core/helm/matyan-0.1.0.tgz
     version: 0.1.0
-generated: "2026-03-21T09:22:14.831016741Z"
+generated: "2026-03-22T06:30:48.79298318Z"
