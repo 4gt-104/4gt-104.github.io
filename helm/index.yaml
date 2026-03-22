@@ -2,8 +2,34 @@ apiVersion: v1
 entries:
   matyan:
   - apiVersion: v2
+    appVersion: 0.1.3
+    created: "2026-03-22T09:52:36.675424149Z"
+    dependencies:
+    - alias: fdb-operator
+      condition: fdb-operator.install
+      name: fdb-operator
+      repository: file://charts/fdb-operator
+      version: 0.3.0
+    - alias: kafka
+      condition: kafka.install
+      name: kafka
+      repository: https://charts.bitnami.com/bitnami
+      version: 32.4.3
+    - alias: rustfs
+      condition: rustfs.install
+      name: rustfs
+      repository: https://charts.rustfs.com
+      version: 0.0.83
+    description: Matyan application services chart
+    digest: b1d5db45f8ceb508bbb6be4524482a4b48695de5ed2745d71934b93fd2c659d3
+    name: matyan
+    type: application
+    urls:
+    - https://4gt-104.github.io/matyan-core/helm/matyan-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: 0.1.1
-    created: "2026-03-22T06:30:48.815281267Z"
+    created: "2026-03-22T09:52:36.663265755Z"
     dependencies:
     - alias: fdb-operator
       condition: fdb-operator.install
@@ -29,7 +55,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-03-22T06:30:48.804410202Z"
+    created: "2026-03-22T09:52:36.652295753Z"
     dependencies:
     - alias: fdb-operator
       condition: fdb-operator.install
@@ -53,4 +79,4 @@ entries:
     urls:
     - https://4gt-104.github.io/matyan-core/helm/matyan-0.1.0.tgz
     version: 0.1.0
-generated: "2026-03-22T06:30:48.79298318Z"
+generated: "2026-03-22T09:52:36.639714787Z"
